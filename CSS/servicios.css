@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    margin: 10px;
+    
+  }
+  @font-face {
+    font-family: 'kanit';
+    src: url('/FUENTE/Kanit-Light.ttf') format('woff2'),
+         url('/FUENTE/Kanit-LightItalic.ttf') format('woff');
+    /* Agrega más formatos si los tienes disponibles */
+    /* Puedes especificar diferentes archivos para compatibilidad con navegadores */
+  }
+  
+  p {
+    font-family: "kanit" ;
+    font-size: 35px; /* Ajusta el valor según tus necesidades */
+    max-width: 800px; /* Ajusta el valor según tus necesidades */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+  }
+  
+.full-height-section {
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .full-height-section2{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .full-height-section3{
+  background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.full-height-section4{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .full-height-section5{
+    background-color: blueviolet;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .full-height-section6{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+    

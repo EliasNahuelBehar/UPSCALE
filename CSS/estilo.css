@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'kanit';
+  src: url('/FUENTE/Kanit-Light.ttf') format('woff2'),
+       url('/FUENTE/Kanit-LightItalic.ttf') format('woff');
+  /* Agrega más formatos si los tienes disponibles */
+  /* Puedes especificar diferentes archivos para compatibilidad con navegadores */
+}
+p {
+  font-size: 35px; /* Ajusta el valor según tus necesidades */
+  max-width: 800px; /* Ajusta el valor según tus necesidades */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+/* Resto de tus estilos CSS */
+.menu{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  background-color: #f2f2f2;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  margin-top: 50px; /* Para dejar espacio debajo del menú fijo */
+}
+
+.gridgeneral {
+  font-family: "kanit";
+  
+   
+    color: #ffffff;
+    text-align: center;
+}
+#gridHeader {
+  position: relative;
+  overflow: hidden;
+}
+
+#gridHeader video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
+.logoupscale {
+   
+    padding-top: 0;
+    background-image: url(../FOTOS/text3004-8-6.png);
+    background-position: 0;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    grid-area: logoupscale;
+    display: fixed;
+    margin: 0 auto;
+    width: 40%;
+    height: 50vh;
+}
+
+.curve-container {
+  font-family: 'kanit', Arial, sans-serif;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    
+  }
+  .full-height-section {
+    font-family: 'kanit', Arial, sans-serif;
+    
+    background-color: rgba(77, 19, 84, 0.5);;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .full-height-section1 {
+    font-family: 'kanit', Arial, sans-serif;
+    background-color: rgb(255, 255, 255, 0.5);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .full-height-section2 {
+    font-family: 'kanit', Arial, sans-serif;
+    background-color: rgba(77, 19, 84, 0.5);;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .full-height-section3 {
+    font-family: 'kanit', Arial, sans-serif;
+    background-color: rgb(255, 255, 255, 0.5);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .full-height-section4 {
+    font-family: 'kanit', Arial, sans-serif;
+    background-color: rgba(77, 19, 84, 0.5);;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  .link-list {
+    list-style: none;
+    padding: 50px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(45deg);
+    transform-origin: top left;
+  }
+  
+  .link-list li {
+    transform: rotate(-45deg);
+    margin: 40px;
+  }
+  
+  .link-list li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #ccc; /* Ajusta el color de fondo según tus necesidades */
+    color: #000; /* Ajusta el color del texto según tus necesidades */
+  }
+
+  
+
+  .gridnosotros {
+    font-family: 'kanit', Arial, sans-serif;
+   
+    padding: 400px;
+    margin: 40px;
+    text-align: center;
+  }
+  
